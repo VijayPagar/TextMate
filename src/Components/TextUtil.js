@@ -38,7 +38,7 @@ const TextManipulator = () => {
         style={{ width: '450px',height :'100px' , margin:'10px' }}
       ></textarea>
       <div className="button-container">
-        <button type="button" className="btn btn-primary" onClick={handleUpperCase}>Upper Case</button>
+        <button type="button" className="btn btn-primary" onClick={handleUpperCase}>Convert to Upper Case</button>
         <button type="button" className="btn btn-primary" onClick={handleLowerCase}>Lower Case</button>
         <button type="button" className="btn btn-primary" onClick={handleCopyText}>Copy Text</button>
         <button type="button" className="btn btn-primary" onClick={handleClearText}>Clear Text</button>

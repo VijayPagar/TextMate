@@ -31,11 +31,12 @@ const TextManipulator = () => {
 
   return (
     <div className={`app-container ${darkMode ? "dark-mode" : "light-mode"}`}>
+      <h1 className="heading">TextMate : Crafting Words, Your Way! </h1>
       <textarea
+        className="text-area"
         placeholder="Enter text..."
         value={text}
         onChange={handleInputChange}
-        style={{ width: '450px',height :'100px' , margin:'10px' }}
       ></textarea>
       <div className="button-container">
         <button type="button" className="btn btn-primary" onClick={handleUpperCase}>Upper Case</button>
